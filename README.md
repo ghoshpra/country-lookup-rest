@@ -1,7 +1,12 @@
 # country-lookup-rest
 country lookup REST service
 
+Command to add dependency:
+npm install --save @cloudnative/health-connect
+
+
 Commands for creation of Docker image, pushing it to DockerHub and running on local Kubernete cluster 
+-----------------------------------------------------------------------------------------------------
 
 docker build -t ghoshpra/country-lookup-rest .
 docker run --rm -d -p 3000:3001 ghoshpra/country-lookup-rest
